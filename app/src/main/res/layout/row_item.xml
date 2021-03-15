@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp"
+    android:background="#29B6F6"
+    android:layout_margin="20sp"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/todo_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20sp"
+            android:layout_marginEnd="20sp"
+            android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/todo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Example"
+        android:textColor="@color/white"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
